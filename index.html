@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+    margin: 0;
+    color: #223b49;
+}
+.navbar{
+    background-color: #223b49;
+    padding: 10px;
+    height: 50px;
+
+}
+.navbar-link{
+    color: gold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero{
+    height: 500px;
+    background: #59C173;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #af26c1, #a6e07f, #c17659); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-color: darkslateblue;
+    background: url(https://source.unsplash.com/1500x720/?classroom) no-repeat center;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+.row{
+    display: inline-block;
+}
+.article{
+    box-sizing: border-box;
+    display: inline-block;
+    padding:  0 5px;
+    width: 33%;
+}
+.article-image{
+    max-width: 100%;
+}
+.article-tag{
+    background-color: #35696e;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+<!--     
+nav bar
+hero section (cover section)
+row/secion with article
+images
+side by side article -->
+
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-link" href="#"><img src="https://www.mysirg.com/wp-content/uploads/2017/11/transparent-logo-e1511526767858.png" alt=""></a>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="container">
+      <h1> Hello Wolrd </h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+      </p>
+    </div>
+  </div>
+  <section class="row">
+    <div class="article">
+      <h2>Article 1</h2>
+      <img src="https://source.unsplash.com/640x480/?laptop" class="article-image" alt="Amazing Laptop">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum! Accusantium adipisci eius ea repellat earum aliquid? Nesciunt exercitationem eum reiciendis voluptatibus iste asperiores atque fugit. Quidem porro similique ipsum!
+      </p>
+      <p><span class="article-tag">Learn More</span></p>
+    </div>
+    <div class="article">
+      <h2>Article 2</h2>
+      <img src="https://source.unsplash.com/640x480/?tech" class="article-image" alt="Technology">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum! Accusantium adipisci eius ea repellat earum aliquid? Nesciunt exercitationem eum reiciendis voluptatibus iste asperiores atque fugit. Quidem porro similique ipsum!
+      </p>
+      <p><span class="article-tag">Learn More</span></p>
+    </div>
+    <div class="article">
+      <h2>Article 3</h2>
+      <img src="https://source.unsplash.com/640x480/?music" class="article-image" alt="Music">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsum! Accusantium adipisci eius ea repellat earum aliquid? Nesciunt exercitationem eum reiciendis voluptatibus iste asperiores atque fugit. Quidem porro similique ipsum!
+      </p>
+      <p><span class="article-tag">Learn More</span></p>
+    </div>
+  </section>
+</body>
+</html>
